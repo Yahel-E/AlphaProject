@@ -39,7 +39,7 @@ import pickle
 
 # Attempt to load the model and handle the potential error
 try:
-    with open("body_language (1).pkl", 'rb') as f:
+    with open("body_language.pkl", 'rb') as f:
         model = pickle.load(f)
         print("Model loaded successfully.")
 except ValueError as e:
